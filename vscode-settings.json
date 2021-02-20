@@ -1,0 +1,66 @@
+{
+  "workbench.colorTheme": "Dracula",
+  "workbench.iconTheme": "material-icon-theme",
+
+  /**
+  *  RocketSeat
+  */
+
+  "editor.fontFamily": "Fira Code",
+  "terminal.integrated.fontSize": 14,
+  // Tela inicial em branco
+  "workbench.startupEditor": "newUntitledFile",
+  // Tamanhos
+  "editor.tabSize": 2,
+  "editor.lineHeight": 20,
+  "editor.fontLigatures": true,
+  "explorer.compactFolders": false,
+  "editor.renderLineHighlight": "gutter",
+  "workbench.editor.labelFormat": "short",
+  "extensions.ignoreRecommendations": true,
+
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+
+  "breadcrumbs.enabled": true,
+  //"editor.parameterHints.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+
+  "editor.rulers": [
+      80,
+      120
+  ],
+  //ESLint
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact"],
+  "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true,
+  },
+  "colorTabs.ignoreCase": true,
+  "colorTabs.config": [
+      {
+          "regex": ".*\/aso-tool\/.*",
+          "color": "#FAF",
+          "label": "ASO Tool"
+      },
+      {
+          "regex": ".*\/rank-components\/.*",
+          "color": "#696",
+      }
+  ],
+  "[json]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[html]": {
+      "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "eslint.codeAction.showDocumentation": {
+
+      "enable": true
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  // "editor.formatOnSave": true
+}
